@@ -1,1 +1,1 @@
-BiSS-Net: A Bi-Scope Contextual State-Space Network for Automated Cobb Angle Measurement from Full-Body X-rays
+# BiSS-Net: Bi-Scope Contextual State-Space Learning for Automated Cobb Angle Measurement in Full-Body X-rays
