@@ -8,4 +8,6 @@ Abstract: Manual Cobb angle measurement for scoliosis assessment from X-rays is 
 
 #### Datasets: The dataset used in this paper is from AASCE 2019 (https://aasce19.grand-challenge.org/). The dataset used in this paper is from AASCE 2019 (https://aasce19.grand-challenge.org/). In addition, we also provide the validation set annotations (full-body images) from the AASCE dataset (file shared via online storage: AASCE-VAL, Link: https://pan.baidu.com/s/1QDRMPBfzJ-4htWCfL4cGKA?pwd=ir5b extraction code: ir5b)
 
+#### In this Github repository we provide the test code along with the pre-trained parameters file (shared via an online storage: model_final.pth, Link: https://pan.baidu.com/s/1sYJ5JyUCpyv9P7LvUZWccw?pwd=wzw8 extraction code: wzw8). 
+#### Additional training code and validation code will be uploaded after the paper is officially published.
 
