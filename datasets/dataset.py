@@ -223,7 +223,7 @@ def generate_ground_truth(image,
 
     # 初始化 GT 张量
     hm = np.zeros((1, output_h, output_w), dtype=np.float32)       # 热力图
-    wh = np.zeros((num_vertebrae, 8), dtype=np.float32)           # 'wh' 属性 (假设是到角点偏移)
+    wh = np.zeros((num_vertebrae, 8), dtype=np.float32)           # 'wh' 属性
     reg = np.zeros((num_vertebrae, 2), dtype=np.float32)          # 亚像素偏移量
     ind = np.zeros((num_vertebrae), dtype=np.int64)               # 展平索引
     reg_mask = np.zeros((num_vertebrae), dtype=np.uint8)          # 有效关键点掩码
@@ -284,10 +284,10 @@ def generate_ground_truth(image,
 
     # --- 3. 整理最终的 Ground Truth 字典 ---
     ret = {'input': image,           # 输入图像
-           'hm': hm,                 # 热力图 (1, H, W)
+           'hm': hm,                 # 热图 (1, H, W)
            'ind': ind,               # 展平索引 (Num_Vertebrae,)
            'reg': reg,               # 亚像素偏移 (Num_Vertebrae, 2)
-           'wh': wh,                 # 'wh'属性 (Num_Vertebrae, 8 或其他)
+           'wh': wh,                 # 'wh'属性 (Num_Vertebrae, 8)
            'reg_mask': reg_mask,     # 有效点掩码 (Num_Vertebrae,)
            # 可选: 保留原始信息
            'pts': pts_2,             # 缩放后的点 (取决于输入是角点还是中心点)
