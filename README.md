@@ -1,7 +1,7 @@
 # BiSS-Net: Bi-Scope Contextual State-Space Learning for Automated Cobb Angle Measurement in Full-Body X-rays
 
 
-
+#### Below is the video demonstrating the image processing capabilities of our model engineering. It has now reached the clinical application standards.
 https://github.com/user-attachments/assets/47ad8600-2037-4394-9462-381b672f5151
 
 
